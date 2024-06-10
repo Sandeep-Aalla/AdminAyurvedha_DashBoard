@@ -1,0 +1,50 @@
+.navbar-brand{
+  color: white;
+  text-align: right;
+}
+.tag-name{
+  text-align: center;
+  font-weight: bolder;
+}
+.medicine-form{
+  height: 130vh;
+}
+
+.medicine-form1{
+  box-shadow: 0 30px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.medicine-form1 label {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.medicine-form1 input{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.category-option{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.medicine-form1 button{
+  width: 20%;
+  margin-left: 40%;
+  font-weight: bolder;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.medicine-form1 button:hover{
+  background-color: rgba(0, 0, 0, 0.9);
+}

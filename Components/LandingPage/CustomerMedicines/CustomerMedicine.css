@@ -1,0 +1,70 @@
+.card-text{
+  font-size: x-large;
+}
+.message{
+  font-size: x-large;
+}
+.tag-name{
+  text-decoration: underline;
+}
+.card{
+  margin: 2vh .5vw 3vh .5vw;
+}
+.card {
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-body{
+  margin-left: 1vw;
+  transition:transform 0.7s ;
+}
+.card-body:hover{
+  transform: translate(20px, 0px);
+}
+.card-body button{
+  width: 40%;
+  margin-left: 30%;
+}
+.navbar-brand{
+  text-align: right;
+}
+.medicine-nav a{
+  text-align: right;
+}
+.medicine .mt-4{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 3vh;
+}
+.medicine button{
+  background-color: grey;
+  font-weight: bolder;
+  border: none;
+  border-radius: 15px;
+
+}
+.medicine button:hover{
+  background-color: rgb(228, 99, 7);
+  color: white;
+}
+.medicine .reset{
+  color: white;
+  background-color: gray;
+  width: 50%;
+  margin-left: 25%;
+}
+.medicine .reset:hover{
+  background-color: rgb(166, 12, 227);
+}
+.medicine .filters label{
+margin: 1vh;
+text-align: center;
+font-weight: bolder;
+}
+.medicine .filters option{
+  font-weight: bolder;
+}

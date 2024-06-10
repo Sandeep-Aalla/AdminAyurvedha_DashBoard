@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  transition: -3s ease;
+}
+
+html{
+  font-size: 90%;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.icon{
+  font-size: 1.25rem;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.flex{
+  display:flex;
+  align-items: center;
+}
+.grid{
+  display:grid;
+  align-items: center;
+  gap: 1.5rem;
+}
+.btn{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px hsl(330, 12%, 97%);
+  padding: .8rem 1rem;
+  color: hsl(240, 1%, 48%);
+}
+.btn .icon{
+  margin-left: .5rem;
+}
+.btn:hover{
+  background: hsl(96, 75%, 89%);
+  color: hsl(94, 59%, 35%);
+}
+
+ /* .container{
+ background-image: url(./skincare.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+} 
+  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

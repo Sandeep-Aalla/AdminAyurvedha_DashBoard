@@ -1,0 +1,30 @@
+.category-list table{
+    font-size:larger;
+    text-align: center;
+}
+.category-list .mt-4{
+    margin-top: 5vh;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.category-list .table-striped button{
+    background-color:green;
+    font-weight: bolder;
+    border: none;
+    color: white;
+  }
+  
+  .category-list .btn-primary:hover{
+    background-color: black;
+  }
+  .category-list .btn-danger{
+    margin-left: 1vw;
+  }
+  .category-list .btn-danger:hover{
+    background-color: rgb(240, 11, 11);
+  }
+  .category-list .btn-warning:hover{
+    background-color: orange;
+  }
+ 
